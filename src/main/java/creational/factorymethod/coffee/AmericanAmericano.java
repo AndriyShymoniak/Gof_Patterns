@@ -1,4 +1,4 @@
-package creational.factorymethod.entity;
+package creational.factorymethod.coffee;
 
 public class AmericanAmericano extends Coffee {
     @Override

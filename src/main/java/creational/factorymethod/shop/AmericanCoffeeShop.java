@@ -1,7 +1,7 @@
 package creational.factorymethod.shop;
 
 import creational.factorymethod.CoffeeType;
-import creational.factorymethod.entity.*;
+import creational.factorymethod.coffee.*;
 
 //American coffee factory
 public class AmericanCoffeeShop extends CoffeeShop {

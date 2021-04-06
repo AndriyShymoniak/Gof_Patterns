@@ -1,7 +1,7 @@
 package creational.factorymethod.shop;
 
 import creational.factorymethod.CoffeeType;
-import creational.factorymethod.entity.Coffee;
+import creational.factorymethod.coffee.Coffee;
 
 public abstract class CoffeeShop {
     public Coffee orderCoffee(CoffeeType coffeeType){
