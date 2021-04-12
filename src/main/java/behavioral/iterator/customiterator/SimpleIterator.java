@@ -2,11 +2,11 @@ package behavioral.iterator.customiterator;
 
 import java.util.List;
 
-public class SimpleIterator<T> implements CustomIterator {
+public class SimpleIterator implements CustomIterator {
     private int index = 0;
-    private List<T> elements;
+    private List<String> elements;
 
-    public SimpleIterator(List<T> elements) {
+    public SimpleIterator(List<String> elements) {
         this.elements = elements;
     }
 
@@ -16,7 +16,7 @@ public class SimpleIterator<T> implements CustomIterator {
     }
 
     @Override
-    public T next() {
+    public String next() {
         return elements.get(index++);
     }
 }

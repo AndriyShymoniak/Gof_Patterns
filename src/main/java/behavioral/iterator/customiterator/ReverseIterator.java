@@ -2,11 +2,11 @@ package behavioral.iterator.customiterator;
 
 import java.util.List;
 
-public class ReverseIterator<T> implements CustomIterator {
+public class ReverseIterator implements CustomIterator {
     private int index;
-    private List<T> elements;
+    private List<String> elements;
 
-    public ReverseIterator(List<T> elements) {
+    public ReverseIterator(List<String> elements) {
         this.elements = elements;
         index = elements.size() - 1;
     }
@@ -17,7 +17,7 @@ public class ReverseIterator<T> implements CustomIterator {
     }
 
     @Override
-    public T next() {
+    public String next() {
         return elements.get(index--);
     }
 }
